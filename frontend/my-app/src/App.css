@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+/* Fullscreen animated gradient background */
+.App-header {
+  background: linear-gradient(270deg, #0f2027, #203a43, #2c5364);
+  background-size: 600% 600%;
+  animation: gradientShift 20s ease infinite;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: white;
+  overflow: hidden;
+  padding: 20px;
+  perspective: 1000px; /* gives a slight 3D depth effect to animations */
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Logo styling */
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Headline styling */
+h1 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  color: #ffdd59;
+  text-shadow: 0 0 10px #ffdd59, 0 0 20px #ffdd59;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.2rem;
+  margin: 10px 0 20px 0;
+  color: #ffffff;
+  text-shadow: 0 0 5px #00c6ff;
+}
+
+/* Button styling */
+.animated-btn {
+  margin-top: 20px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 50px;
+  background: #61dafb;
+  color: #111;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(97, 218, 251, 0.7);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Button hover effects */
+.animated-btn:hover {
+  background: linear-gradient(45deg, #61dafb, #00c6ff);
+  color: #000;
+  box-shadow: 0 0 25px rgba(97, 218, 251, 1), 0 0 40px rgba(0, 198, 255, 0.7);
+  transform: scale(1.1);
+}
+
+.animated-btn:active {
+  transform: scale(0.95);
+}
+
+/* Button shine effect */
+.animated-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: skewX(-25deg);
+  transition: 0.5s;
+}
+
+.animated-btn:hover::before {
+  left: 100%;
+}
+
+/* Responsive text scaling */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .animated-btn {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+  }
+}
