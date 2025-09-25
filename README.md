@@ -1,26 +1,4 @@
-Got it! Here’s the **clean, professional version** of your README **without emojis**:
 
----
-
-# **ROOTS-AGATE**
-
-**Resilient Origin & Ownership Traceability System — Ayurvedic Geotagging & Authenticity Trace Engine**
-
-A **blockchain-based system** for **botanical traceability of Ayurvedic herbs**, integrating **geo-tagging from collection points (farmers/wild collectors) to final Ayurvedic formulations**, ensuring **authenticity, transparency, and end-to-end traceability**.
-
----
-
-## **Table of Contents**
-
-* [Project Overview](#project-overview)
-* [Features](#features)
-* [Architecture](#architecture)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
-
----
 
 ## **Project Overview**
 
@@ -100,22 +78,3 @@ streamlit run app.py
 
 ---
 
-## **Contributing**
-
-* Fork the repo
-* Create a branch (`git checkout -b feature-name`)
-* Commit your changes (`git commit -m 'Add feature'`)
-* Push (`git push origin feature-name`)
-* Open a pull request
-
----
-
-## **License**
-
-MIT License © 2025 Salil Kumar Jha
-
----
-
-If you want, I can **also add a “Demo / Screenshots” and a sample “Smart Contract snippet” section** to make it look very professional for the hackathon judges.
-
-Do you want me to do that?
