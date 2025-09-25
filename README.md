@@ -1,29 +1,52 @@
-# Root- Agate
-ROOTS-AGATE addresses the challenge of tracing Ayurvedic herbs from the source to formulation, leveraging blockchain immutability and geo-tagging to:
+Got it! Here’s the **clean, professional version** of your README **without emojis**:
 
-Prevent adulteration
+---
 
-Maintain supply chain transparency
+# **ROOTS-AGATE**
 
-Ensure herb provenance and authenticity
+**Resilient Origin & Ownership Traceability System — Ayurvedic Geotagging & Authenticity Trace Engine**
 
-Integrate farmers and collectors in a secure system
+A **blockchain-based system** for **botanical traceability of Ayurvedic herbs**, integrating **geo-tagging from collection points (farmers/wild collectors) to final Ayurvedic formulations**, ensuring **authenticity, transparency, and end-to-end traceability**.
 
-Features
+---
 
-Geo-tagging of collection points – Farmers & wild collectors
+## **Table of Contents**
 
-Blockchain ledger – Secure, tamper-proof traceability
+* [Project Overview](#project-overview)
+* [Features](#features)
+* [Architecture](#architecture)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
 
-Batch-level provenance tracking – From harvest to final product
+---
 
-Supply chain transparency – Helps manufacturers, regulators, and consumers
+## **Project Overview**
 
-Authenticity verification – Prevents mislabeling & fraud
+ROOTS-AGATE addresses the challenge of tracing Ayurvedic herbs from the **source to formulation**, leveraging **blockchain immutability** and **geo-tagging** to:
 
-Web/Streamlit interface – Optional interactive dashboard
+* Prevent adulteration
+* Maintain supply chain transparency
+* Ensure herb provenance and authenticity
+* Integrate farmers and collectors in a secure system
 
-Architecture
+---
+
+## **Features**
+
+* Geo-tagging of collection points – Farmers & wild collectors
+* Blockchain ledger – Secure, tamper-proof traceability
+* Batch-level provenance tracking – From harvest to final product
+* Supply chain transparency – Helps manufacturers, regulators, and consumers
+* Authenticity verification – Prevents mislabeling & fraud
+* Web/Streamlit interface – Optional interactive dashboard
+
+---
+
+## **Architecture**
+
+```
 Farmers / Wild Collectors
         │
         ▼
@@ -37,36 +60,62 @@ Farmers / Wild Collectors
         │
         ▼
  Final Formulation Label + Verification
+```
 
+* **Data flow:** Each batch of herbs is geo-tagged at collection → recorded on blockchain → verified at processing → final label includes traceable ID.
 
-Data flow: Each batch of herbs is geo-tagged at collection → recorded on blockchain → verified at processing → final label includes traceable ID.
+---
 
-Installation
+## **Installation**
 
-Clone this repository:
+1. Clone this repository:
 
+```bash
 git clone https://github.com/SalilDev09/ROOTS-AGATE.git
 cd ROOTS-AGATE
+```
 
+2. Install dependencies (example for Python/Streamlit setup):
 
-Install dependencies (example for Python/Streamlit setup):
-
+```bash
 pip install -r requirements.txt
+```
 
+3. Run the application:
 
-Run the application:
-
+```bash
 streamlit run app.py
+```
 
+> Adjust steps based on your actual implementation (Python, Node.js, or other).
 
-Adjust steps based on your actual implementation (Python, Node.js, or other).
+---
 
-Usage
+## **Usage**
 
-Add collection points via the dashboard or CSV
+* Add collection points via the dashboard or CSV
+* Each batch automatically gets a **unique blockchain ID**
+* Track batches in real-time from collection → processing → final product
+* Verify authenticity using the batch ID
 
-Each batch automatically gets a unique blockchain ID
+---
 
-Track batches in real-time from collection → processing → final product
+## **Contributing**
 
-Verify authenticity using the batch ID
+* Fork the repo
+* Create a branch (`git checkout -b feature-name`)
+* Commit your changes (`git commit -m 'Add feature'`)
+* Push (`git push origin feature-name`)
+* Open a pull request
+
+---
+
+## **License**
+
+MIT License © 2025 Salil Kumar Jha
+
+---
+
+If you want, I can **also add a “Demo / Screenshots” and a sample “Smart Contract snippet” section** to make it look very professional for the hackathon judges.
+
+Do you want me to do that?
